@@ -125,8 +125,8 @@ Array.from(document.getElementsByClassName("card")).forEach(e => {
 
 (async function main() {
   //get the list of all songs
-  await getSongs("songs/cs");
-  playMusic(songs[0],true)
+  // await getSongs("songs/");
+  // playMusic(songs[0],true)
 
   //Display all the albums on the page
 
